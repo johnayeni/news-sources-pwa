@@ -1,0 +1,22 @@
+{
+  "name": "news-sources-pwa",
+  "version": "1.0.0",
+  "description": "A simple pwa example.",
+  "scripts": {
+    "start": "serve -l 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnayeni/news-sources-pwa.git"
+  },
+  "author": "John Ayeni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnayeni/news-sources-pwa/issues"
+  },
+  "homepage": "https://github.com/johnayeni/news-sources-pwa#readme",
+  "dependencies": {
+    "serve": "^11.1.0"
+  }
+}

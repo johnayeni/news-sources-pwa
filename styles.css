@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+  margin: 8px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+main {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: max-content;
+  grid-auto-flow: row dense;
+}
+
+.article a {
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
